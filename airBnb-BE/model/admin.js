@@ -16,4 +16,4 @@ password: {
 
 })
 
-module.exports= mongoose.model("admin", adminSchema)
+module.exports= mongoose.model("Admin", adminSchema)
