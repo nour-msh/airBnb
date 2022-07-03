@@ -6,5 +6,6 @@ const AdminRoutes = Router();
 AdminRoutes.post("/addCategory", addCategory);
 AdminRoutes.post("/addResort", addResort);
 AdminRoutes.get("/getCategories", getAllCat);
+AdminRoutes.post("/login", login);
 
 export default AdminRoutes;
