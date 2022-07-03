@@ -1,4 +1,4 @@
-const mongoose= require ("mongoose")
+import mongoose from "../Database/database.js"
 const adminSchema= new mongoose.Schema({
 full_name: {
     type: String
@@ -16,4 +16,4 @@ password: {
 
 })
 
-module.exports= mongoose.model("Admin", adminSchema)
+export const Admin = mongoose.model("Admin", adminSchema)

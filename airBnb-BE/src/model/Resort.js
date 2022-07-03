@@ -1,4 +1,4 @@
-const mongoose= require("mongoose");
+import mongoose from "../Database/database.js"
 const resortSchema= new mongoose.Schema({
     resort_name:{
         type: String,
@@ -16,4 +16,4 @@ const resortSchema= new mongoose.Schema({
 
 })
 
-module.exports= mongoose.model("Resort", resortSchema)
+export const Resort =  mongoose.model("Resort", resortSchema)

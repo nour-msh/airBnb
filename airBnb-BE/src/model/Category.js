@@ -1,6 +1,9 @@
-const mongoose= require ("mongoose")
+import mongoose from "../Database/database.js"
 const categorySchema= new mongoose.Schema({
     category_name:{
+        type: String,
+    },
+    image: {
         type: String,
     },
     resorts: [{
@@ -9,4 +12,4 @@ const categorySchema= new mongoose.Schema({
     }]
 })
 
-module.exports= mongoose.model("Category", categorySchema)
+export const Category = mongoose.model("Category", categorySchema)
