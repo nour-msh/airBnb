@@ -1,3 +1,7 @@
+.catContainer{
+    width: 90%;
+    margin:auto;
+}
 .catContainer > button > img {
     height:25px;
     width:25px;
