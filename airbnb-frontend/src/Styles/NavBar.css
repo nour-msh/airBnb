@@ -5,6 +5,9 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    text-align: center;
+    width: 90%;
+    margin:auto;
 }
 .navContainer > img{
     height:35px;
@@ -14,10 +17,14 @@
 .top-container{
     height:45px;
     width:350px;
-    border: solid 2px grey;
+    border: solid 1px rgb(222, 220, 220);
     border-radius: 40px;
     
 }
+.top-container:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
 button{
     border: none;
     background-color: transparent;
