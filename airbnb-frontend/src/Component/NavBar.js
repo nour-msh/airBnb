@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from "../assets/logo.png"
 
 
@@ -10,11 +10,11 @@ function NavBar(){
                 <button>Anywhere |</button>
                 <button>Any Week |</button>
                 <button>Add guests</button>
-                <button></button>
+                <button>search</button>
             </div>
             <div>
                 <button>Become a Host</button>
-                <button></button>
+                <button>hello</button>
                 <div>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">Sign up</a>
