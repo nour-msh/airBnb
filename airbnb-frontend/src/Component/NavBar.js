@@ -8,9 +8,9 @@ function NavBar(){
             <img src={logo} alt=""/>
             <div className='top-container'>
                 <button>Anywhere |</button>
-                <button>Any Week |</button>
-                <button>Add guests</button>
-                <button>search</button>
+                <button>Any week |</button>
+                <button className='guests-btn'>Add guests</button>
+                <button>S</button>
             </div>
             <div>
                 <button>Become a Host</button>
