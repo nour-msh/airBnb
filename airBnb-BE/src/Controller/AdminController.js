@@ -34,4 +34,15 @@ export async function addResort(req, res){
     }
 }
 
-
+export async function getAllCat(req, res){
+    
+    try{
+        const results = await Category.find().populate("resorts")
+        console.log(1)
+        res.status(200).json(results)
+    } catch (error) {
+        res.status(500).json({
+            message: error.message
+        })
+    }
+}
