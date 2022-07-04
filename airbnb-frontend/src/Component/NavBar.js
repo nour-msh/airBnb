@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import logo from "../assets/logo.png"
 import Dropdown from './Dropdown';
+import { Link } from 'react-router-dom';
 
 
 function NavBar(){
@@ -14,9 +15,13 @@ function NavBar(){
         setDropdown(!openDropdown)
     }
 
+
     return(
         
         <div className='navContainer'>
+            <Link to="/admin" >
+            Admin
+            </Link>
             <img src={logo} alt=""/>
             <div className='top-container'>
                 <button>Anywhere |</button>
